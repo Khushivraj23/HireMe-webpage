@@ -10,6 +10,7 @@ from pythonfiles.Student_home import apply_job, fetch_job_details, get_jobs_by_a
 from pythonfiles.recruiterslogin import check_recruiter_login
 from pythonfiles.students_login import check_student_login
 from pythonfiles.Students_register import register_student
+from flask_cors import CORS
 
 app = Flask(__name__)
 app.secret_key = '2345'
